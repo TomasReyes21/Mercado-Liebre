@@ -1,0 +1,124 @@
+/* HEADER */
+.Homa-header{
+    background-color: var(--Amarillo);
+}
+
+.Home-Header-Logo {
+    width: 50%;
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-right: 50px;
+    padding-bottom: 10px;
+    text-align: center;
+
+}
+
+.Home-Header-icon-lupa {
+    background-color: beige;
+    border: solid 1px var(--GrisOscuro);
+}
+
+.container {
+    margin-left: 20px;
+}
+
+input {
+    width: 225px;
+}
+
+.lupa {
+    margin-top: 5px;
+}
+
+.Home-Header-cuotas  {
+    font-size: 12px; 
+    text-align: center;
+    margin-top: 20px;
+}
+
+.Home-Header-menu {
+  text-align: center;
+}
+
+.Home-Header-menu a {
+    background-color: var(--Celeste);
+    font-size: 25px;
+    color: white;
+    padding: 13px;
+    border-radius: 10%;
+    margin: 30px;
+    display: inline-block;
+}
+
+.ul-1 i {   
+    margin-left: 5px;
+}
+
+
+/* MAIN */
+
+.home-main-section-img {
+    width: 100%; 
+}
+
+.Home-main-article {
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 40px;
+}
+
+.home-main-section-div {
+    background-color: white;
+}
+
+.Home-main-h3 {
+    text-align: center;
+    font-size: 24px;
+    padding-top: 20px;    
+}
+
+.Home-main-precios{
+    font-size: 18px;
+    padding: 3px; 
+}
+
+.Home-main-descuento {
+    font-size: 16px;
+    padding: 3px; 
+}
+
+.Home-main-descripcion{
+    font-size: 16px;
+    padding: 3px; 
+}
+
+/* FOOTER */
+
+.Home-footer {
+    background-color: white;
+    text-align: center;
+    margin: 5px;
+}
+
+.Home-footer-section-div {
+    padding: 20px;
+}
+ 
+.Home-footer-section-div p{
+    font-size: 16px;
+}
+
+.Home-footer-section-div h5{
+    font-size: 18px;
+}
+
+.Home-footer-section-div-p {
+    font-size: 13px;
+    text-align: left;
+}
+
+
+
+
+
