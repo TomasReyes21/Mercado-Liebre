@@ -137,22 +137,31 @@ input {
     text-align: left;
 }
 
-@media (max-width:361px) {
+@media (max-width:769px) {
 
     /* HEADER */
 
-    .Homa-header nav {
+  .Homa-header nav {
         display: none;
-    }
+    } 
 }
 
-@media (min-width:361px) {
+@media (min-width:769px) {
 
     /* HEADER */
 
-    .Home-Header-menu a {
+  .Home-Header-menu a {
         display: none;
-    }   
+    }  
+    
+    .Home-Header-Logo {
+        width: 30%;
+        padding-top: 30px;
+        padding-left: 30px;
+        padding-right: 50px;
+        padding-bottom: 10px;
+        text-align: center;
+    }
 }
 
 
