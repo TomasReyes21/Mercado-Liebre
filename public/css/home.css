@@ -61,7 +61,8 @@ input {
 }
 
 .home-main-section-img {
-    width: 100%; 
+    width: 100%;
+    margin-bottom: 20px; 
 }
 
 .Home-main-article {
@@ -72,15 +73,15 @@ input {
     border-top: solid 1px var(--GrisClaro);
     display: flex;
     flex-direction: column;
-    padding: 20px 20px 10px 15px;
+    padding: 10px 20px 10px 15px;
 }
 
 .truckIcon {
     color: var(--Verde);
-    width: 14%;
     padding: 10px;
     border-radius: 25px;
     border: solid 1px var(--Verde);
+    margin: auto auto auto 0px; 
 }
 
 .home-main-section-div {
