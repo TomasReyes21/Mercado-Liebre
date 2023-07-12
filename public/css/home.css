@@ -121,6 +121,13 @@ input {
     margin: 5px;
 }
 
+.Home-footer-section {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    display: block;
+}
+
 .Home-footer-section-div {
     padding: 20px;
 }
@@ -135,7 +142,9 @@ input {
 
 .Home-footer-section-div-p {
     font-size: 13px;
-    text-align: left;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
 }
 
 @media (max-width:769px) {
@@ -163,6 +172,13 @@ input {
         padding-bottom: 10px;
         text-align: center;
     }
+
+    .Home-footer-section {
+        display: flex;
+        justify-content: center;
+        flex-direction: row; 
+    }
+
 }
 
 
