@@ -100,13 +100,19 @@
 
 .home-main-section-div {
     background-color: white;
+    transition: all 1s ease;
+}
+
+.home-main-section-div:hover {
     box-shadow: 0px 0px 10px rgb(100, 100, 100);
 }
 
+
 .Home-main-article {
-    padding: 5px 15px ;
+    padding: 5px 15px;
     flex-wrap: wrap;
-    margin: 0 auto;   
+    margin: 0 auto;
+    width: auto;
 }
 
 .Home-main-section-article-div {
@@ -116,6 +122,17 @@
     position: relative;
     padding: 15px;
 }
+
+.Home-main-section-article-div h4 {
+    height: 0;
+    overflow: hidden;
+    transition: all 1s ease;
+}
+
+.Home-main-article:hover h4{
+    height: 20px;
+}
+
 
 .truckIcon {
     color: var(--Verde);
@@ -128,7 +145,24 @@
     position: absolute;
     right: 20px;
     background-color: #FFF;
-    top: -15px;
+    top: -15px;  
+}
+
+.home-main-section-div i:hover {
+    animation: rotate 1s;
+}
+
+@keyframes rotate {
+    0%{
+        transform: rotate(0);
+    }
+    40%{
+        transform: rotate(0d);
+    }
+
+    100%{
+        transform: rotate(-90deg);
+    }
 }
 
 .Home-main-precios{
@@ -172,6 +206,12 @@
 
 .Home-footer-section-div {
     padding: 20px;
+}
+
+.Home-footer-section-div i{
+    color: #213ee4;
+    font-size: 25px;
+    padding-bottom: 5px;
 }
  
 .Home-footer-section-div p{
@@ -279,8 +319,12 @@
     }
     
     .Home-main-article {
-        padding: 10px 15px ;
-        width: 25%;   
+        padding: 10px 15px;
+        width: 25%;
+    }
+    
+    .Sección-article__box {
+        padding: 0 20px;
     }
 
     /* FOOTER*/

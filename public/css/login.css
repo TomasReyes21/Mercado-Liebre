@@ -18,13 +18,23 @@
 
 .div-login__button button{
     border: none;
-    background-color: #2b2bee;
+    background-color: #fff;
     width: 100%;
     padding: 10px;
     border-radius: 5px;
+    transition: all 1s ease;
+}
+
+.div-login__button button:hover {
+    background-color: #0022AA;
 }
 
 .div-login__button a{
+    color: #030303;
+    transition: all 1s ease;
+}
+
+.div-login__button button:hover a{
     color: #fff;
 }
 
